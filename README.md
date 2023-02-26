@@ -1,6 +1,12 @@
 # CannibalOS
 *Copyright (c) 2023 - Laura Raine*
 
+<br />
+
+*CannibalOS as of 26/02/2023*
+
+![](docs/image.png)
+
 ## Prerequisites
 * Docker Desktop
 * Python 3.5+
