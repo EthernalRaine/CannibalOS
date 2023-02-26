@@ -11,6 +11,7 @@
 * Docker Desktop
 * Python 3.5+
 * Git
+* QEMU
 * A Brain and Common Sense :p
 * Windows with PowerShell (for linux look below)
 
