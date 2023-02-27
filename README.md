@@ -17,7 +17,8 @@
 
 ## Attention Linux People
 * Instead of chroot_docker.py, run `docker run --rm -it -v "$(pwd)":/root/env cannibalos-env`
-* instead of vm_test.py, run `qemu-system-x86_64 -cdrom publish/amd64/iso/cannibal.iso`
+* instead of vm_test32.py, run `qemu-system-x86_64 -cdrom publish/amd64/iso/cannibal-amd64.iso`
+* instead of vm_test64.py, run `qemu-system-i386 -cdrom publish/ia32/iso/cannibal-ia32.iso`
 
 ## Build Instructions
 1. run `py tools\prep_env.py`

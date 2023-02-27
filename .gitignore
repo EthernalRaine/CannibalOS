@@ -1,3 +1,4 @@
-config/amd64/boot/sandwich.krnl
+config/amd64/boot/sandwich.krnl64
+config/ia32/boot/sandwich.krnl32
 publish/
 build/
