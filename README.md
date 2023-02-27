@@ -21,11 +21,12 @@
 * instead of vm_test64.py, run `qemu-system-i386 -cdrom publish/ia32/iso/cannibal-ia32.iso`
 
 ## Build Instructions
+### ia32 builds do not work yet! (27/02/2023)
 1. run `py tools\prep_env.py`
 2. run `py tools\prep_docker.py`
 3. run `py tools\chroot_docker.py`
-4. run `make build-amd64` **inside of the container !**
-5. run `py tools\vm_test.py` **in a new terminal !**
+4. run `make build-amd64` or `make build-ia32` **inside of the container !**
+5. run `py tools\vm_test32.py` or `py tools\vm_test`64`.py` **in a new terminal !**
 
 ## Credits
 * [CodePulse](https://www.youtube.com/@CodePulse) for his amazing tutorial on writing a 64-bit kernel
