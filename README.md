@@ -26,3 +26,9 @@
 4. run `make build-amd64` **inside of the container !**
 5. run `py tools\vm_test.py` **in a new terminal !**
 
+## Credits
+* [CodePulse](https://www.youtube.com/@CodePulse) for his amazing tutorial on writing a 64-bit kernel
+* [Daedalus](https://www.youtube.com/@DaedalusCommunity) for his series on building an OS, helping me understand the basics a bit
+* [OSDev Wiki](http://wiki.osdev.org) for the extensive documentation surrounding OS Development
+* [OSDev Discord](https://discord.gg/osdev) for their support when my braincells went to get milk :p
+* [EinTim](http://eintim.one) for giving me the idea and also helping me with some 1iq issues
