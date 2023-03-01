@@ -1,4 +1,4 @@
-# CannibalOS
+# CannibalOS - LDR Branch (Experimenting with a Custom Bootloader)
 *Copyright (c) 2023 - Laura Raine*
 
 <br />
@@ -17,16 +17,14 @@
 
 ## Attention Linux People
 * Instead of chroot_docker.py, run `docker run --rm -it -v "$(pwd)":/root/env cannibalos-env`
-* instead of vm_test32.py, run `qemu-system-x86_64 -cdrom publish/amd64/iso/cannibal-amd64.iso`
-* instead of vm_test64.py, run `qemu-system-i386 -cdrom publish/ia32/iso/cannibal-ia32.iso`
+* instead of vm_test32.py, run `qemu-system-i386 -cdrom publish/ldr/caosldr`
 
 ## Build Instructions
-### ia32 builds do not work yet! (27/02/2023)
 1. run `py tools\prep_env.py`
 2. run `py tools\prep_docker.py`
 3. run `py tools\chroot_docker.py`
-4. run `make build-amd64` or `make build-ia32` **inside of the container !**
-5. run `py tools\vm_test32.py` or `py tools\vm_test64.py` **in a new terminal !**
+4. run `make ldr` **inside of the container !**
+5. run `py tools\vm_test32.py` **in a new terminal !**
 
 ## Credits
 * [CodePulse](https://www.youtube.com/@CodePulse) for his amazing tutorial on writing a 64-bit kernel
